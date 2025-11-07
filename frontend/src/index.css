@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import "tailwindcss";
+
+
+
+body{
+  background-color: rgba(255, 255, 255, 1);
+  background-image: 
+    url('/src/assets/images/bg_new.svg'),
+    url('/src/assets/images/BG.svg');
+  background-repeat: repeat, repeat;
+  background-size: auto, auto;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevents horizontal scroll */
+  margin: 0;
+  padding: 0;
+}
+
+.island {
+  font-family: 'Islands Moment', cursive;
+}
+/* Also add this to ensure no elements overflow */
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+.test-instrument { font-family: 'Instrument Sans', sans-serif; }
+.test-island { font-family: 'Islands Moment', cursive; }
+
