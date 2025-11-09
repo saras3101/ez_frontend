@@ -34,18 +34,18 @@ const NavBar = () => {
 
   return (
     <div>
-      {/* Fixed Navbar */}
+      
       <nav className="fixed bg-white/40 backdrop-blur-sm left-2 right-2 rounded top-2 h-14 px-3 md:px-6 z-50">
         <div className="flex flex-row justify-between items-center h-full">
           
-          {/* Logo */}
+
           <div className="flex w-32 md:w-40 h-8">
             <img className="w-full h-full object-contain" src="/src/assets/images/logo.png" alt="logo" />
           </div>
 
           <div className="flex items-center">
             
-            {/* Desktop Navigation - Animated slide in from right */}
+           
             <div
               className={`hidden md:flex gap-4 mx-3 transition-all duration-500 ease-in-out ${
                 open
@@ -93,7 +93,7 @@ const NavBar = () => {
               </button>
             </div>
 
-            {/* Menu Button - VISIBLE ON ALL SCREEN SIZES */}
+          
             <button onClick={isOpen} className="mx-2 z-50 hover:cursor-pointer">
               {open ? 
                 <img src="/src/assets/images/Open.svg" alt="close-menu" className="h-8 w-12"/> :
@@ -152,7 +152,6 @@ const NavBar = () => {
         </div>
       </div>
 
-      {/* Overlay - Only shows on mobile when menu is open */}
       {open && (
         <div 
           className="md:hidden fixed inset-0 bg-black/30 z-30 transition-opacity duration-300"

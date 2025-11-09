@@ -13,7 +13,7 @@ body{
   background-size: auto, auto;
   width: 100vw;
   min-height: 100vh;
-  overflow-x: hidden; /* Prevents horizontal scroll */
+  overflow-x: hidden; 
   margin: 0;
   padding: 0;
 }

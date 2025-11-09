@@ -11,7 +11,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Whole />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        {/* Add other routes here */}
       </Routes>
     </Router>
   );
