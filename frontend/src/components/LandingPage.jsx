@@ -1,22 +1,20 @@
 import React from "react";
-import NavBar from "./NavBar";
 
 const LandingPage = () => {
   return (
     <div>
-      <NavBar />
       <div className="flex flex-row justify-between items-center">
         <div className="flex relative items-center m-32">
-          {/* Mandala SVG (background) */}
+          
           <img
             src="src/assets/images/heroMandala.svg"
-            className="h-72 w-72"
+            className="h-86 w-86"
             alt="Mandala"
           />
-          {/* Logo PNG (above, centered over mandala) */}
+          
           <img
             src="src/assets/images/logo.png"
-            className="h-12 w-32 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+            className="h-16 w-40 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
             alt="Logo"
           />
         </div>
@@ -29,19 +27,21 @@ const LandingPage = () => {
             <p className="flex">Varnan is where stories find</p>
             <p className="flex">their voice and form</p>
           </div>
+
           <div className="flex">
             <p
               style={{ fontFamily: "'  Halant', sans-serif" }}
-              className="text-[#F15D2B] text-2xl "
+              className="text-[#F15D2B] text-xl "
             >
               Films . Brands . Art
             </p>
           </div>
           <div
             style={{ fontFamily: "'Instrument Sans', sans-serif" }}
-            className="flex "
+            className="flex w-66"
           >
-            <p className="text-center">
+
+            <p className='text-center text-[0.625rem]'>
               Since 2009, V’ve been telling stories - stories of people, their
               journeys, and the places that shape them. Some begin in polished
               boardrooms, others in humble village squares. But every story
@@ -49,6 +49,7 @@ const LandingPage = () => {
               takes trust, patience, and an eye for the unseen to capture what
               truly matters. V doesn’t just tell stories - V honors them.
             </p>
+
           </div>
         </div>
       </div>

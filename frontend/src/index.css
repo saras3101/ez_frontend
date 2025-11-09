@@ -17,6 +17,10 @@ body{
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 .island {
   font-family: 'Islands Moment', cursive;
