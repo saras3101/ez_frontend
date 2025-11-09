@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "2265b1ea-cbe9-44c1-a55f-bd427cfefe21",
+		"name": "Contact Form API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49920267",
+		"_collection_link": "https://saraswati310106-1640422.postman.co/workspace/Saraswati's-Workspace~44e1ba43-c972-4520-8f72-a2a6adbe3002/collection/49920267-2265b1ea-cbe9-44c1-a55f-bd427cfefe21?action=share&source=collection_link&creator=49920267"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Test user\",\n  \"email\": \"testuser@gmail.com\",\n  \"phone\": \"908765498\",\n  \"message\": \"This is a message\"\n}"
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
