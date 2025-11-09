@@ -18,7 +18,8 @@ This is a responsive website built with **React**, **Tailwind CSS**, and **React
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
 
-### 2. Install dependencies npm install 
+### 2. Install dependencies
+npm install
 ### 3. Start the development server npm run dev
 
 The app will open at [http://localhost:5173](http://localhost:5173) (Vite) or [http://localhost:3000](http://localhost:3000) (CRA).
