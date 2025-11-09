@@ -91,10 +91,10 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="flex flex-row h-screen w-screen relative">
+    <div className="flex flex-row min-h-screen w-screen relative">
       <div
         style={{ fontFamily: "'Instrument Sans', sans-serif" }}
-        className="flex w-1/2 flex-col pl-20 pr-48 justify-center "
+        className="hidden lg:flex w-1/2 flex-col pl-20 pr-48 justify-center"
       >
         <p className="text-xs leading-relaxed">
           Whether you have an idea, a question, or simply want to explore how V
@@ -106,17 +106,17 @@ const ContactUs = () => {
         </p>
       </div>
 
-      <div className="flex w-1/2 flex-col justify-center items-center pr-24 pl-8">
+      <div className="flex w-full lg:w-1/2 flex-col justify-center items-center px-6 md:px-12 lg:pr-24 lg:pl-8 py-12">
         <div className="flex flex-col items-center mb-4">
           <h2
             style={{ fontFamily: "'Halant', sans-serif" }}
-            className="text-3xl "
+            className="text-2xl md:text-3xl"
           >
             Join the Story
           </h2>
           <p
             style={{ fontFamily: "'Instrument Sans', sans-serif" }}
-            className="text-xs"
+            className="text-xs text-center"
           >
             Ready to bring your vision to life? Let's talk.
           </p>
@@ -176,7 +176,7 @@ const ContactUs = () => {
           )}
         </form>
 
-        <div className="flex gap-8 mt-6">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-8 mt-6 text-center">
           <span className="text-xs text-orange-500 font-bold">
             vernita@varnanfilms.co.in
           </span>
@@ -188,12 +188,12 @@ const ContactUs = () => {
 
       <img
         src="src/assets/images/contact-bottom-mandala.svg"
-        className="absolute bottom-0 -left-9 h-60 w-60 -z-1"
+        className="absolute bottom-0 -left-9 h-60 w-60 -z-1 hidden lg:block"
       />
 
       <img
         src="src/assets/images/contact-upper-mandala.svg"
-        className="absolute top-0 right-0 h-60 w-60 -z-1"
+        className="absolute top-0 right-0 h-60 w-60 -z-1 hidden md:block"
       />
     </div>
   );

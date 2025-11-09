@@ -5,7 +5,7 @@
 
 
 body{
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255);
   background-image: 
     url('/src/assets/images/bg_new.svg'),
     url('/src/assets/images/BG.svg');
