@@ -2,6 +2,9 @@
 
 This is a responsive website built with **React**, **Tailwind CSS**, and **React Router DOM**.
 
+### Visit Deployed Website
+https://ez-vfilms.choreoapps.dev/
+
 ## Features
 
 - ⚡ Modern React setup (Vite/CRA)
