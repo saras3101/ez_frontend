@@ -21,7 +21,7 @@ const OurStory = () => {
         </div>
 
         <div className="flex items-center justify-center">
-          <img className="w-64 h-40 md:w-80 md:h-48 lg:w-92 lg:h-56 mt-6 md:mt-8" src="src/assets/images/notes.svg" />
+          <img className="w-64 h-40 md:w-80 md:h-48 lg:w-92 lg:h-56 mt-6 md:mt-8" src="/images/notes.svg" />
         </div>
       </div>
 
@@ -32,7 +32,7 @@ const OurStory = () => {
           and endure.
         </div>
         <div className='overflow-hidden h-[50vh] md:h-[30vh] lg:h-[55%] relative mt-6'>
-          <img src='src/assets/images/mountain-ring.svg' className='w-full h-full object-cover object-top scale-80'  />
+          <img src='/images/mountain-ring.svg' className='w-full h-full object-cover object-top scale-80'  />
         </div>
       </div>
     </div>

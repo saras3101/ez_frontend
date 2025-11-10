@@ -6,9 +6,9 @@
 
 body{
   background-color: rgb(255, 255, 255);
-  background-image: 
-    url('/src/assets/images/bg_new.svg'),
-    url('/src/assets/images/BG.svg');
+  /* background-image: 
+    url('/images/bg_new.svg'),
+    url('/images/BG.svg'); */
   background-repeat: repeat, repeat;
   background-size: auto, auto;
   width: 100vw;

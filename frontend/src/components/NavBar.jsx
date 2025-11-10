@@ -40,7 +40,7 @@ const NavBar = () => {
           
 
           <div className="flex w-32 md:w-40 h-8">
-            <img className="w-full h-full object-contain" src="/src/assets/images/logo.png" alt="logo" />
+            <img className="w-full h-full object-contain" src="/images/logo.png" alt="logo" />
           </div>
 
           <div className="flex items-center">
@@ -89,27 +89,25 @@ const NavBar = () => {
                 className="flex flex-row items-center justify-center bg-[rgba(241,93,43,1)] w-24 h-8 gap-1 rounded-full px-3 py-1 hover:shadow-lg transition-all"
               >
                 <p className="text-xs text-white font-instrument">Let's Talk</p>
-                <img src="/src/assets/images/mail.svg" className="h-4 w-4" alt="mail"/>
+                <img src="/images/mail.svg" className="h-4 w-4" alt="mail"/>
               </button>
             </div>
 
           
             <button onClick={isOpen} className="mx-2 z-50 hover:cursor-pointer">
               {open ? 
-                <img src="/src/assets/images/Open.svg" alt="close-menu" className="h-8 w-12"/> :
-                <img src="/src/assets/images/Menu.svg" alt="open-menu" className="h-8 w-12"/>
+                <img src="/images/Open.svg" alt="close-menu" className="h-8 w-12"/> :
+                <img src="/images/Menu.svg" alt="open-menu" className="h-8 w-12"/>
               }
             </button>
           </div>
         </div>
       </nav>
 
-      {/* Mobile/Tablet Dropdown Menu - Only shows on small screens */}
       <div className={`md:hidden fixed top-20 left-2 right-2 rounded bg-white/95 backdrop-blur-md shadow-lg z-40 transform transition-all duration-300 ease-in-out ${
         open ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full pointer-events-none'
       }`}>
         
-        {/* Menu Items */}
         <div className="flex flex-col items-center gap-4 px-6 py-6">
           <a  
             href="#services"
@@ -147,7 +145,7 @@ const NavBar = () => {
             className="flex flex-row items-center justify-center bg-[rgba(241,93,43,1)] w-full h-10 gap-2 rounded-full px-4 py-2 hover:shadow-lg transition-all mt-2"
           >
             <p className="text-sm text-white font-instrument">Let's Talk</p>
-            <img src="/src/assets/images/mail.svg" className="h-4 w-4" alt="mail"/>
+            <img src="/images/mail.svg" className="h-4 w-4" alt="mail"/>
           </button>
         </div>
       </div>

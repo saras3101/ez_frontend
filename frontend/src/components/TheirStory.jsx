@@ -14,7 +14,7 @@ const TheirStory = () => {
       <div className="absolute top-18 md:top-16 left-4 md:left-22 z-10 w-64 md:w-auto">
         <img
           className="h-42 w-32 md:h-64 md:w-102"
-          src="/src/assets/images/note-1.svg"
+          src="/images/note-1.svg"
           alt="Note"
         />
       </div>
@@ -25,7 +25,7 @@ const TheirStory = () => {
         <div className="flex w-full md:w-1/3 justify-center md:justify-start items-center md:items-start pt-12 md:pt-42 mt-4 md:mt-8 order-2 md:order-1">
           <img
             className="h-40 w-40 md:h-56 md:w-56"
-            src="/src/assets/images/indiaGate.svg"
+            src="/images/indiaGate.svg"
             alt="India Gate"
           />
         </div>
@@ -34,7 +34,7 @@ const TheirStory = () => {
         <div className="flex flex-col w-full md:w-2/3 items-center justify-center order-1 md:order-2">
           <img
             className="h-48 w-auto md:h-68 mt-4 md:mt-8 mb-6 md:mb-8"
-            src="/src/assets/images/grp-ppl.svg"
+            src="/images/grp-ppl.svg"
             alt="Team"
           />
           <div className="flex flex-col items-center gap-3 px-4">

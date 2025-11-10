@@ -187,12 +187,12 @@ const ContactUs = () => {
       </div>
 
       <img
-        src="src/assets/images/contact-bottom-mandala.svg"
+        src="/images/contact-bottom-mandala.svg"
         className="absolute bottom-0 -left-9 h-60 w-60 -z-1 hidden lg:block"
       />
 
       <img
-        src="src/assets/images/contact-upper-mandala.svg"
+        src="/images/contact-upper-mandala.svg"
         className="absolute top-0 right-0 h-60 w-60 -z-1 hidden md:block"
       />
     </div>

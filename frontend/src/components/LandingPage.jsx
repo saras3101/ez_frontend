@@ -7,14 +7,14 @@ const LandingPage = () => {
         <div className="flex relative items-center justify-center m-4 mt-18 md:m-32 w-full md:w-auto">
           
           <img
-            src="src/assets/images/heroMandala.svg"
+            src="/images/heroMandala.svg"
             className="h-64 w-64 md:h-86 md:w-86 animate-spin"
             style={{ animationDuration: '20s' }}
             alt="Mandala"
           />
           
           <img
-            src="src/assets/images/logo.png"
+            src="/images/logo.png"
             className="h-12 w-32 md:h-16 md:w-40 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
             alt="Logo"
           />
